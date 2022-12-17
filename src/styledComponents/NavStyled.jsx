@@ -29,6 +29,9 @@ export const LinkContainer = styled(Link)`
   &:active {
     color: #fff;
   }
+   @media (max-width: 400px) {
+      font-size:  15px !important;
+    }
 `;
 export const DivPadre = styled.div`
   padding: 10px;
@@ -46,6 +49,9 @@ export const A = styled.div`
   margin-right: 10px !important;
   margin-top: 10px !important;
   flex-wrap: wrap !important;
+    @media (max-width: 400px) {
+      font-size:  15px !important;
+    }
 `;
 
 export const DivLogo = styled.div`
@@ -53,6 +59,7 @@ export const DivLogo = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
 `;
 
 

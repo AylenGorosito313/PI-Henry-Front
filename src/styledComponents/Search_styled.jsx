@@ -41,7 +41,10 @@ export const ContainerSearch = styled.div`
   width: 80vw;
   
   }
-
+ @media (max-width: 400px) {
+      height: 30px;
+  width: 70vw;
+    }
 `;
 
 export const Select = styled.select`

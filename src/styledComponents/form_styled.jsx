@@ -52,7 +52,7 @@ export const Diva = styled.div`
       border-color: rgba(10, 10, 10, 0.90);
    
     }
-  
+   
   }
 
   select{
@@ -72,7 +72,12 @@ export const Diva = styled.div`
    
   }
 
- 
+  @media (max-width: 400px) {
+    height: 40px;
+    width: 60wv;
+    font-size: 12px;
+   
+    }
 `;
 
 export const Btn = styled.button`
