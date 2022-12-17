@@ -14,7 +14,7 @@ import {
 function Presentacion() {
   return (
     <DivImagen>
-      <Imagen src={land} alt=" Pres" />
+      <Imagen src={land} alt=" Pres"  />
 
       <DivTitle>
         <DivLogo>
