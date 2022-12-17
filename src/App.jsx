@@ -9,7 +9,7 @@ import TabsCardsGeneral from "./components/Formularios/TabsCardsGeneral";
 
 import axios from "axios";
 // const {PORT_HOST} = process.env;
-axios.defaults.baseURL = "https://countriesdeploy.onrender.com/";
+axios.defaults.baseURL = "https://countriesdeploy.onrender.com";
 
 function App() {
   return (
