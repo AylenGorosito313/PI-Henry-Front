@@ -111,7 +111,7 @@ function FormGeneral() {
     <form onSubmit={handler_Submit}>
       <DivError>
         <Diva>
-          <label id="Name-act">Name</label>
+          <label className="label">Name</label>
           <input
             type="text"
             onChange={handlerChangeName}
@@ -123,7 +123,7 @@ function FormGeneral() {
         <DivPError>{error && <PError>{error}</PError>}</DivPError>
       </DivError>
       <Diva>
-        <label>Difficulty</label>
+        <label className="label">Difficulty</label>
         <input
           type="number"
           onChange={handlerChangeDif}
@@ -131,7 +131,7 @@ function FormGeneral() {
         />
       </Diva>
       <Diva>
-        <label>Duration</label>
+        <label className="label">Duration</label>
         <select name="select" onChange={handlerChangeDuracion}>
           <option value={defaultValueSelect.minuto}>30 min</option>
           <option value={defaultValueSelect.hora1}>1 hrs</option>
@@ -141,7 +141,7 @@ function FormGeneral() {
         </select>
       </Diva>
       <Diva>
-        <label>Season</label>
+        <label className="label">Season</label>
         <select name="select" onChange={handlerChangeTemp}>
           <option value={defaultValueSelect.verano}>Summer</option>
           <option value={defaultValueSelect.invierno} selected>
@@ -153,7 +153,7 @@ function FormGeneral() {
       </Diva>
 
       <Diva>
-        <label>Add Countries </label>
+        <label className="label">Add Countries </label>
         <select name="select" onChange={handlerChangeID}>
           {GET.length > 0 &&
             GET[0].map((element) => (

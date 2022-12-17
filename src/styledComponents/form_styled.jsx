@@ -73,8 +73,9 @@ export const Diva = styled.div`
   }
 
   @media (max-width: 400px) {
+ 
     height: 40px;
-    width: 60wv;
+    width: 200px;
     font-size: 12px;
    
     }
@@ -153,7 +154,19 @@ export const DivError = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
+  @media (max-width: 400px) {
+    input {
+      height: 40px;
+      width: 200px;
+    }
+    select {
+      height: 40px;
+      width: 200px;
+    }
+    height: auto;
+    width: auto;
+    font-size: 12px;
+  }
 `;
 
 export const DivPError = styled.div`
@@ -166,21 +179,13 @@ export const DivPError = styled.div`
 `;
 
 export const DivBoton = styled.div`
-padding-top:20px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 `;
 
 export const DivID = styled.div`
-
-
-
-
-
-
-
-
   padding: 5px 0px 10px 3px;
 
   border-radius: 5px;
