@@ -14,6 +14,10 @@ export const Imagen = styled.img`
     height: 500px;
     width: 700px;
   }
+   @media (max-width: 460px) {
+    height: 100%;
+    width: 60wv;
+  }
 `;
 
 export const DivImagen = styled.div`
