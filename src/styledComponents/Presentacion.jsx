@@ -16,7 +16,8 @@ export const Imagen = styled.img`
   }
    @media (max-width: 460px) {
     height: 100%;
-    width: 60wv;
+    width: auto;
+  z-index:0;
   }
 `;
 
