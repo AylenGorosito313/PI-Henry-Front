@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Imagen = styled.img`
-  height: 100%;
+  height: 100hv;
   width: 80vw;
   justify-content: center;
   border-radius: 20px;
@@ -14,8 +14,9 @@ export const Imagen = styled.img`
     width: 700px;
   }
   @media (max-width: 400px) {
-    height: 100hv;
+    height: auto;
     width: auto;
+  
   }
 `;
 
@@ -31,6 +32,7 @@ export const DivImagen = styled.div`
   @media (max-width: 400px) {
     height: auto;
     width: auto;
+  
   }
 `;
 
@@ -105,6 +107,12 @@ export const DivLogo = styled.div`
   align-items: center;
   @media (max-width: 768px) {
     padding: 10px 300px 10px 10px;
+  }
+
+   @media (max-width: 400px) {
+    padding: 10px 100px 10px 10px;
+      height: 180px;
+  width: 180px;
   }
 `;
 
