@@ -108,7 +108,7 @@ padding:10px;
   text-overflow: ellipsis;
   h1{
     padding:10px;
-    font-weight:300;
+    font-weight:200;
     font-size:20px;
     color: #fff;
 }

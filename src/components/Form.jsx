@@ -45,7 +45,9 @@ function Form() {
 
   const handlerChangeName = (event) => {
     let value = event.target.value;
-    let act = countriesValidation.length > 0 && countriesValidation[0]?.filter((act) => act.name === value);
+    let act =
+      countriesValidation.length > 0 &&
+      countriesValidation[0]?.filter((act) => act.name === value);
 
     if (act.length === 0) {
       if (event.target.value.length > 100) {
@@ -96,7 +98,7 @@ function Form() {
     <form onSubmit={handler_Submit}>
       <DivError>
         <Diva>
-          <label className={error && "error"}>Nombre</label>
+          <label className={error && "error"}>Name</label>
           <input
             type="text"
             onChange={handlerChangeName}
@@ -108,7 +110,7 @@ function Form() {
         <DivPError>{error && <PError>{error}</PError>}</DivPError>
       </DivError>
       <Diva>
-        <label>Dificultad</label>
+        <label>Difficulty</label>
         <input
           type="number"
           onChange={handlerChangeDif}
@@ -116,7 +118,7 @@ function Form() {
         />
       </Diva>
       <Diva>
-        <label>Duracion</label>
+        <label>Duration</label>
         <select name="select" onChange={handlerChangeDuracion}>
           <option value={defaultValueSelect.minuto} selected>
             30 min
@@ -128,14 +130,14 @@ function Form() {
         </select>
       </Diva>
       <Diva>
-        <label>Temporada</label>
+        <label>Season</label>
         <select name="select" onChange={handlerChangeTemp}>
-          <option value={defaultValueSelect.verano}>Verano</option>
+          <option value={defaultValueSelect.verano}>Summer</option>
           <option value={defaultValueSelect.invierno} selected>
-            Invierno
+            Winter
           </option>
-          <option value={defaultValueSelect.otonio}>Otoño</option>
-          <option value={defaultValueSelect.primavera}>Primavera</option>
+          <option value={defaultValueSelect.otonio}>Autumn</option>
+          <option value={defaultValueSelect.primavera}>Spring</option>
         </select>
       </Diva>
       {successful && <p className="Succs">{successful}</p>}

@@ -85,7 +85,7 @@ export const TituloCard = styled.h1`
   color: #fff;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 15px;
   justify-content: center;
   cursor: pointer;

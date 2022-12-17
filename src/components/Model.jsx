@@ -55,18 +55,18 @@ function Model({ open, setOpen }) {
                 <h1>{countriesID.length > 0 && countriesID[0].name}</h1>
                 <h2>
                   {" "}
-                  Capital: {countriesID.length > 0 && countriesID[0].capital}
+                  Capital : {countriesID.length > 0 && countriesID[0].capital}
                 </h2>
                 <h2>
                   {" "}
-                  Continente:{" "}
+                  Continente :{" "}
                   {countriesID.length > 0 && countriesID[0].continente}
                 </h2>
                 <h2>
                   {" "}
-                 Poblacion:  {Poblacion(poblacion)}
+                 Population :  {" "}{Poblacion(poblacion)}
                 </h2>
-                <h2> Area: {Area(Areas)}</h2>
+                <h2> Area : {Area(Areas)}</h2>
                
               </TituloCard>
             </Divv>

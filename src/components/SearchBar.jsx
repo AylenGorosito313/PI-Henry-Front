@@ -113,14 +113,14 @@ function Buscador() {
               </Svg>
               {open && (
                 <Select onChange={handlerChangeOrden}>
-                  <option selected>Filtrar por Orden</option>
-                  <option value={defaultValueSelect.ASC}>Ordenar A-Z</option>
-                  <option value={defaultValueSelect.DESC}>Ordenar Z-A</option>
+                  <option selected>Filter by order</option>
+                  <option value={defaultValueSelect.ASC}>Order A-Z</option>
+                  <option value={defaultValueSelect.DESC}>Order Z-A</option>
                   <option value={defaultValueSelect.MAYOR}>
-                    Ordenar Mayor poblacion
+                    Sort by largest population
                   </option>
                   <option value={defaultValueSelect.MENOR}>
-                    Ordenar Menor poblacion
+                    Sort of least population
                   </option>
                   //////////////////////////// Filtros por continente
                 </Select>
@@ -128,7 +128,7 @@ function Buscador() {
 
               {open && (
                 <Select onChange={handlerChangeContinente}>
-                  <option>Filtrar Continente </option>
+                  <option>Filter by Continent </option>
                   <option value={defaultValueSelect.américas}>Américas</option>
                   <option value={defaultValueSelect.asia}>Asia</option>
                   <option value={defaultValueSelect.africa}>Africa</option>

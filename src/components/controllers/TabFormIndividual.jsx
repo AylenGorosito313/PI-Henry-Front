@@ -24,20 +24,20 @@ function TabFormIndividual() {
                        <Svg><IconHeart/></Svg> 
                       <Divact>
                         <Divcolunm>
-                          <Pdescrip>Nombre</Pdescrip>
+                          <Pdescrip>Name</Pdescrip>
                           {e.name}
                         </Divcolunm>
 
                         <Divcolunm>
-                          <Pdescrip>Temporada</Pdescrip>
+                          <Pdescrip>Season</Pdescrip>
                           {e.temporada}
                         </Divcolunm>
                         <Divcolunm>
-                          <Pdescrip>Duracion </Pdescrip>
+                          <Pdescrip>Duration </Pdescrip>
                           {e.duracion}
                         </Divcolunm>
                         <Divcolunm>
-                          <Pdescrip>Dificultad</Pdescrip>
+                          <Pdescrip>Difficulty</Pdescrip>
                           {e.dificultad}
                         </Divcolunm>
                       </Divact>

@@ -37,14 +37,13 @@ function TabsCards_General() {
         <button
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}
-        >
-          Actividades Turisticas
+        >Tourist activities
         </button>
         <button
           className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(2)}
         >
-          Añadir Actividades
+          Add Activity
         </button>
       
       </div>
@@ -53,7 +52,7 @@ function TabsCards_General() {
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-          <h2>Actividades Turisticas </h2>
+          <h2>Tourist activities </h2>
           <hr />
           <  BuscadorActividades />
         
@@ -67,20 +66,20 @@ function TabsCards_General() {
                       </Svg>
                       <Divact>
                         <Divcolunm>
-                          <Pdescrip>Nombre</Pdescrip>
+                          <Pdescrip>Name</Pdescrip>
                           {e.name}
                         </Divcolunm>
 
                         <Divcolunm>
-                          <Pdescrip>Temporada</Pdescrip>
+                          <Pdescrip>Season</Pdescrip>
                           {e.temporada}
                         </Divcolunm>
                         <Divcolunm>
-                          <Pdescrip>Duracion </Pdescrip>
+                          <Pdescrip>Duration </Pdescrip>
                           {e.duracion}
                         </Divcolunm>
                         <Divcolunm>
-                          <Pdescrip>Dificultad</Pdescrip>
+                          <Pdescrip>Difficulty</Pdescrip>
                           {e.dificultad}
                         </Divcolunm>
                       </Divact>
@@ -94,7 +93,7 @@ function TabsCards_General() {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <h2>Añadir Actividad</h2>
+          <h2>Add Activity</h2>
           <hr />
           <Div>
             <FormGeneral />

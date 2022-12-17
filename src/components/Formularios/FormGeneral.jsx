@@ -111,7 +111,7 @@ function FormGeneral() {
     <form onSubmit={handler_Submit}>
       <DivError>
         <Diva>
-          <label id="Name-act">Nombre</label>
+          <label id="Name-act">Name</label>
           <input
             type="text"
             onChange={handlerChangeName}
@@ -123,7 +123,7 @@ function FormGeneral() {
         <DivPError>{error && <PError>{error}</PError>}</DivPError>
       </DivError>
       <Diva>
-        <label>Dificultad</label>
+        <label>Difficulty</label>
         <input
           type="number"
           onChange={handlerChangeDif}
@@ -131,7 +131,7 @@ function FormGeneral() {
         />
       </Diva>
       <Diva>
-        <label>Duracion</label>
+        <label>Duration</label>
         <select name="select" onChange={handlerChangeDuracion}>
           <option value={defaultValueSelect.minuto}>30 min</option>
           <option value={defaultValueSelect.hora1}>1 hrs</option>
@@ -141,19 +141,19 @@ function FormGeneral() {
         </select>
       </Diva>
       <Diva>
-        <label>Temporada</label>
+        <label>Season</label>
         <select name="select" onChange={handlerChangeTemp}>
-          <option value={defaultValueSelect.verano}>Verano</option>
+          <option value={defaultValueSelect.verano}>Summer</option>
           <option value={defaultValueSelect.invierno} selected>
-            Invierno
+            Winter
           </option>
-          <option value={defaultValueSelect.otonio}>Otoño</option>
-          <option value={defaultValueSelect.primavera}>Primavera</option>
+          <option value={defaultValueSelect.otonio}>Autumn</option>
+          <option value={defaultValueSelect.primavera}>Spring</option>
         </select>
       </Diva>
 
       <Diva>
-        <label>Añadir Paises </label>
+        <label>Add Countries </label>
         <select name="select" onChange={handlerChangeID}>
           {GET.length > 0 &&
             GET[0].map((element) => (
