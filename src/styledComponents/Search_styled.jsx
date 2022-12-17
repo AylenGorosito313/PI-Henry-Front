@@ -36,15 +36,54 @@ export const ContainerSearch = styled.div`
   order: 0;
   align-self: stretch;
 
-  @media (max-width: 400px) {
-    height: 30px;
-  width: 80vw;
-  
-  }
  @media (max-width: 400px) {
       height: 30px;
   width: 85vw;
     }
+`;
+
+
+export const ContainerSearchACT = styled.div`
+
+  margin-top: 20px;
+  margin-right: 10px;
+  justify-content: center;
+  height: 30px;
+  width: 50vw;
+  font-family: "Poppins", sans-serif;
+  font-siz: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  flex-direction: row-reverse;
+  &:hover,
+  &:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  &:active {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+
+  background: #d5d5f5;
+
+  border-radius: 100px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+
+  @media (max-width: 400px) {
+    height: 30px;
+  width: 75vw;
+  
+  }
+
 `;
 
 export const Select = styled.select`

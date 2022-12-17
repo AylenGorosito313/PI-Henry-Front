@@ -20,7 +20,7 @@ import {
   Svg,
   Select ,
   Input,
-  ContainerSearch,
+  ContainerSearchACT,
   LayoutACT
 } from "../styledComponents/Search_styled";
 import { useEffect } from "react";
@@ -99,7 +99,7 @@ function BuscadorActividades() {
       <div>
         <form onSubmit={handler_Submit}>
           <LayoutACT>
-            <ContainerSearch>
+            <ContainerSearchACT>
               <Svg onClick={OnClick_filtros}>
                 <Filtros />
               </Svg>
@@ -123,7 +123,7 @@ function BuscadorActividades() {
                 placeholder="Search activity..."
               />
               
-            </ContainerSearch>
+            </ContainerSearchACT>
           
 
 
