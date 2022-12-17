@@ -35,7 +35,13 @@ ContImagen {
     justify-content: center;
   
 }
-
+  @media (max-width: 400px) {
+ 
+    height: auto;
+    width: 280px;
+    
+   
+    }
 `
 export const EncabezadoModal= styled.div`
 display:flex;
