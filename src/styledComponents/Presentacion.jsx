@@ -15,9 +15,9 @@ export const Imagen = styled.img`
     width: 700px;
   }
    @media (max-width: 460px) {
-    height: 100%;
-    width: auto;
-  z-index:0;
+    height: 100hv;
+    width: 80wv;
+
   }
 `;
 
@@ -30,6 +30,11 @@ export const DivImagen = styled.div`
   justify-content: center;
   color: #fff;
   padding: 0px;
+   @media (max-width: 460px) {
+    height: 100hv;
+    width: 80wv;
+
+  }
 `;
 
 export const DivTitle = styled.div`
