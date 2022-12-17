@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Imagen = styled.img`
-  height: 100hv;
+  height: 100%;
   width: 80vw;
   justify-content: center;
   border-radius: 20px;
@@ -14,8 +14,8 @@ export const Imagen = styled.img`
     width: 700px;
   }
   @media (max-width: 400px) {
-    height: auto;
-    width: auto;
+    height: 350px;
+    width: 300px;
   
   }
 `;
@@ -29,11 +29,7 @@ export const DivImagen = styled.div`
   justify-content: center;
   color: #fff;
   padding: 0px;
-  @media (max-width: 400px) {
-    height: auto;
-    width: auto;
-  
-  }
+
 `;
 
 export const DivTitle = styled.div`
@@ -108,12 +104,6 @@ export const DivLogo = styled.div`
   @media (max-width: 768px) {
     padding: 10px 300px 10px 10px;
   }
-
-   @media (max-width: 400px) {
-    padding: 10px 100px 10px 10px;
-      height: 180px;
-  width: 180px;
-  }
 `;
 
 export const DivBtn = styled.div`
@@ -128,10 +118,10 @@ export const DivBtn = styled.div`
     padding: 60px 160px 10px 10px;
   }
 
-  @media (max-width: 390px) {
+  @media (max-width: 400px) {
     height: auto;
     width: auto;
-    padding: 10px 160px 0px 0px;
+    padding: 40px 10px 10px 0px;
     justify-content: flex-start;
   }
 `;
@@ -184,8 +174,8 @@ export const BtnStart = styled.button`
   }
 
   @media (max-width: 400px) {
-    height: auto;
-    width: auto;
+    height: 40px;
+    width: 100px;
     font-size: 14px;
   }
 `;
