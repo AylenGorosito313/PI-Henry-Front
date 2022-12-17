@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -14,10 +13,9 @@ export const Imagen = styled.img`
     height: 500px;
     width: 700px;
   }
-   @media (max-width: 460px) {
+  @media (max-width: 400px) {
     height: 100hv;
-    width: 80wv;
-
+    width: auto;
   }
 `;
 
@@ -30,10 +28,9 @@ export const DivImagen = styled.div`
   justify-content: center;
   color: #fff;
   padding: 0px;
-   @media (max-width: 460px) {
-    height: 100hv;
-    width: 80wv;
-
+  @media (max-width: 400px) {
+    height: auto;
+    width: auto;
   }
 `;
 
@@ -84,6 +81,17 @@ padding: 170px 10px 10px 90px;
       font-size: 20px;
     }
   }
+  @media (max-width: 400px) {
+    h1{
+      font-size: 20px;
+    }
+
+    h2{
+      font-size: 10px;
+    }
+
+    padding: 170px 10px 10px 20px;
+  }
 
 
 `;
@@ -101,16 +109,22 @@ export const DivLogo = styled.div`
 `;
 
 export const DivBtn = styled.div`
-  padding: 100px 160px 10px 10px;
+  padding: 100px 160px 0px 0px;
   display: flex;
   height: auto;
   width: auto;
   align-items: center;
 
-
   @media (max-width: 768px) {
     justify-content: center;
     padding: 60px 160px 10px 10px;
+  }
+
+  @media (max-width: 390px) {
+    height: auto;
+    width: auto;
+    padding: 10px 160px 0px 0px;
+    justify-content: flex-start;
   }
 `;
 export const BtnStart = styled.button`
@@ -159,6 +173,12 @@ export const BtnStart = styled.button`
   &:active {
     box-shadow: #d6d6e7 0 3px 7px inset;
     transform: translateY(2px);
+  }
+
+  @media (max-width: 400px) {
+    height: auto;
+    width: auto;
+    font-size: 14px;
   }
 `;
 
