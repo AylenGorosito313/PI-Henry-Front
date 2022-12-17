@@ -104,7 +104,7 @@ function FormGeneral() {
     event.preventDefault();
     dispatch(postActivity({ ...form }));
     setForm({ ...form, countryId: [], name: "" });
-    alert("Actividad creada con exito");
+    setSuccessful("Actividad creada con exito");
   };
 
   return (
