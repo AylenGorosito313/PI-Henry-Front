@@ -15,7 +15,7 @@ export const Imagen = styled.img`
   }
   @media (max-width: 400px) {
     height: 350px;
-    width: 300px;
+    width: 350px;
   
   }
 `;
@@ -88,7 +88,7 @@ padding: 170px 10px 10px 90px;
       font-size: 10px;
     }
 
-    padding: 170px 10px 10px 20px;
+    padding: 150px 10px 10px 50px;
   }
 
 
@@ -122,6 +122,7 @@ export const DivBtn = styled.div`
     height: auto;
     width: auto;
     padding: 40px 10px 10px 0px;
+      align-items: center;
     justify-content: flex-start;
   }
 `;
