@@ -35,6 +35,13 @@ export const ContainerSearch = styled.div`
   flex: none;
   order: 0;
   align-self: stretch;
+
+  @media (max-width: 400px) {
+    height: 30px;
+  width: 80vw;
+  
+  }
+
 `;
 
 export const Select = styled.select`
