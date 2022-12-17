@@ -43,7 +43,7 @@ export const ContainerSearch = styled.div`
   }
  @media (max-width: 400px) {
       height: 30px;
-  width: 70vw;
+  width: 85vw;
     }
 `;
 

@@ -37,7 +37,7 @@ ContImagen {
 }
   @media (max-width: 400px) {
  
-    height: auto;
+    height: 80hv;
     width: 280px;
     
    
